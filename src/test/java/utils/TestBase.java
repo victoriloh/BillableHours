@@ -69,29 +69,6 @@ public class TestBase {
 		reports.attachReporter(htmlReporter);
 
 	}
-//	@Parameters({"groupReport", "dataEnv"})
-//	@BeforeSuite
-//	public void setUp(String groupReport, String dataEnv) throws IOException, ParseException {
-//
-//		{
-//			try {
-//				devices = TestUtils.executeAdbCommand("adb devices");
-//				devices = devices.replaceAll("List of devices attached", " ");
-//				devices = devices.replaceAll("device", " ").trim();
-//				udid = devices.split(" ");
-//			} catch (IOException e) {
-//				System.out.println("No devices found: " + e.toString());
-//
-//			}
-//		}
-//
-//		htmlReporter = new ExtentHtmlReporter(new File(System.getProperty("user.dir") + groupReport));
-//		//htmlReporter.loadXMLConfig(new File(System.getProperty("user.dir") + "/resources/extent-config.xml"));
-//		reports = new ExtentReports();
-//		reports.setSystemInfo("Test Environment", myUrl(dataEnv));
-//		reports.attachReporter(htmlReporter);
-//
-//	}
 
 	@Parameters("deviceName")
 	@BeforeMethod(description = "fetch test cases name")

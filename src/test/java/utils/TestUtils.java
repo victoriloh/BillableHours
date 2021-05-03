@@ -172,25 +172,6 @@ public class TestUtils extends TestBase {
 		}
 	}
 
-//    public static void scroll(int fromX, int fromY, int toX, int toY) {
-//        TouchAction touchAction = new TouchAction(getDriver());
-//        touchAction.longPress(fromX, fromY).moveTo(toX, toY).release().perform();
-//    }
-//
-//    public static void scrollDown() {
-//        int pressX = getDriver().manage().window().getSize().width / 2;
-//        int bottomY = getDriver().manage().window().getSize().height * 4 / 5;
-//        int topY = getDriver().manage().window().getSize().height / 8;
-//        scroll(pressX, bottomY, pressX, topY);
-//    }
-//    public static void scrollUp() {
-//        int pressX = getDriver().manage().window().getSize().width / 2;
-//        int bottomY = getDriver().manage().window().getSize().height * 4 / 5;
-//        int topY = getDriver().manage().window().getSize().height / 8;
-//        scroll(pressX, topY, pressX, bottomY);
-//    }
-
-
 
 	// Possible solution to interacting with Android Internal or External memory
 	public static String executeAdbCommand(String command) throws IOException {
