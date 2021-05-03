@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BillableTesting" preserve-order="true" thread-count="5">
+	<parameter name="groupReport" value="/bundle.html" />
+	<parameter name="server" value="local" />
+	<parameter name="environment" value="chrome" />
+	<parameter name="server" value="local" />
+	<parameter name="dataEnv" value="testData" />
+	<parameter name="appActivity" value="com.bundle.billable_hours_app.MainActivity" />
+	<parameter name="appPackage" value="com.bundle.billable_hours_app" />
+
+	<test name="Bundle" preserve-order="true">
+		<parameter name="systemPort" value="8220" />
+		<parameter name="deviceNo" value="1" />
+		<parameter name="deviceName" value="SM-G965U" />
+		<classes>
+			<class name="billableHour.ParseCSV">
+				<methods>
+					<include name="emptyCsvFileWithNoContent" />
+					<include name="csvFileWithHigherStartTime" />
+					<include name="csvFileWithEmptyProjectName" />
+					<!--<include name="csvFileWithEmptyBillableRate" />-->
+					<!--<include name="csvFileWithEmptyEmployeeId" />-->
+					<!--<include name="csvFileWithSameStartTimeAndEndTime" />-->
+					<!--<include name="csvFileWithEmptyBillableTime" />-->
+                    <!--<include name="randomCsvFileWithInvalidFormat" />-->
+                    <!--<include name="fileThatIsNotACsv" />-->
+                    <!--<include name="validCsvFileFormat" />-->
+				</methods>
+			</class>
+
+            <!--<class name="billableHour.SameIdSameCompany">-->
+                <!--<methods>-->
+                    <!--<include name="parseCsvForSameEmployeeIdSameCompany" />-->
+                    <!--<include name="companyInfoSN1" />-->
+                    <!--<include name="companyInfoSN2" />-->
+                <!--</methods>-->
+            <!--</class>-->
+             <!--<class name="billableHour.SameIdDifferentCompany">-->
+                <!--<methods>-->
+                    <!--<include name="parseCsvForSameEmployeeIdDifferentCompany" />-->
+                    <!--<include name="getCompanyInfoForSN1" />-->
+                    <!--<include name="getCompanyInfoForSN2" />-->
+                    <!--<include name="getCompanyInfoForSN3" />-->
+                    <!--<include name="getCompanyInfoForSN4" />-->
+                <!--</methods>-->
+            <!--</class>-->
+            <!--<class name="billableHour.DifferentIdSameCompany">-->
+                <!--<methods>-->
+                    <!--<include name="parseCsvForDifferentEmployeeIdSameCompany" />-->
+                    <!--<include name="companyInfoSN1" />-->
+                <!--</methods>-->
+            <!--</class>-->
+            <!--<class name="billableHour.DifferentIdDifferentCompany">-->
+                <!--<methods>-->
+                    <!--<include name="parseCsvForDifferentEmployeeIdDifferentCompany" />-->
+                    <!--<include name="getCompanyInfoForSN1" />-->
+                    <!--<include name="getCompanyInfoForSN2" />-->
+                <!--</methods>-->
+            <!--</class>-->
+		</classes>
+	</test>
+</suite>

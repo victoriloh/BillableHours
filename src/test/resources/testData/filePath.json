@@ -1,0 +1,44 @@
+{
+  "EmptyCsvFile" : {
+    "filePath" : "/storage/emulated/0/EmptyIdAndProjects.csv"
+  },
+  "higherStartTime" : {
+    "filePath" : "/storage/emulated/0/highStartTime - Sheet1.csv"
+  },
+  "emptyProjectName" : {
+    "filePath" : "/storage/emulated/0/SomeEmptyProject1 - Sheet1.csv"
+  },
+  "emptyBillableRate" : {
+    "filePath" : "/storage/emulated/0/SomeEmptyBillrate1 - Sheet1.csv"
+  },
+  "emptyEmployeeId" : {
+    "filePath" : "/storage/emulated/0/SomeEmptyEmployeeId1 - Sheet1.csv"
+  },
+  "sameStartTimeAndEndTime" : {
+    "filePath" : "/storage/emulated/0/sameTime - Sheet1.csv"
+  },
+  "emptyBillableTime" : {
+    "filePath" : "/storage/emulated/0/SomeEmptyFields1 - Sheet1.csv"
+  },
+  "randomCsvFile" : {
+    "filePath" : "/storage/emulated/0/device-list.csv"
+  },
+  "pdfFilePath" : {
+    "filePath" : "/storage/emulated/0/device-list.pdf"
+  },
+  "validCsvFileFormat" : {
+    "filePath" : "/storage/emulated/0/SameIdSameProjects11 - Sheet1.csv"
+  },
+  "differentEmployeeIdDifferentCompany" : {
+    "filePath" : "/storage/emulated/0/DifferentIdDifferentProjects3 - Sheet1.csv"
+  },
+  "differentEmployeeIdSameCompany" : {
+    "filePath" : "/storage/emulated/0/DifferentIdSameProjects11 - Sheet1 (1).csv"
+  },
+  "sameEmployeeIdDifferentCompany" : {
+    "filePath" : "/storage/emulated/0/SameIdDifferentProjects11 - Sheet1.csv"
+  },
+  "SameEmployeeIdSameCompany" : {
+    "filePath" : "/storage/emulated/0/SameIdSameProjects11 - Sheet1.csv"
+  }
+}

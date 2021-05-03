@@ -1,0 +1,5 @@
+Employee ID,Billable Rate (per hour),Project,Date,Start Time,End Time
+1,390,ETCBundle,2020-08-01,9:00,
+,550,ETCBundle,2020-09-21,,18:00
+2,,Whatsapp,2020-08-01,8:00,0:00
+9,640,,2020-09-21,1:00,18:00
