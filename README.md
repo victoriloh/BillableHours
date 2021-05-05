@@ -13,9 +13,9 @@ Steps to set up the project,
 9. When the project is done executing the report is contained in the bundle.html file.
 10. Open the bundle.html file using chrome or any other browser to view the results of the tests that was carried out.
 
-Worthy of mention that the ParsCSV class  and other classes have errors because i delibrately added those expectations when an invalid CSV file path is added and when something that is meant to there is not there.( an example is the Total cost where it was just the amount without the Naira sign.)
+Worthy of mention that the ParseCSV class  and other classes have errors because i delibrately added those expectations when an invalid CSV file path is added and when something that is meant to there is not there.( an example is the Total cost where it was just the amount without the Naira sign.)
 
 Here is the link to the Testscripts for the mobile Application:- 
 https://docs.google.com/spreadsheets/d/17K_USVNuFGR61kveP-HWFn2hO7mU7JZpds9EegoFB-8/edit#gid=1377291879
 
-On the submodules o the spreadsheet is the feeback/Improvement.
+On the submodules of the spreadsheet is the feeback/Improvement.
