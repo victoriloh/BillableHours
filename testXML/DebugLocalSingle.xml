@@ -19,45 +19,45 @@
 					<include name="emptyCsvFileWithNoContent" />
 					<include name="csvFileWithHigherStartTime" />
 					<include name="csvFileWithEmptyProjectName" />
-					<!--<include name="csvFileWithEmptyBillableRate" />-->
-					<!--<include name="csvFileWithEmptyEmployeeId" />-->
-					<!--<include name="csvFileWithSameStartTimeAndEndTime" />-->
-					<!--<include name="csvFileWithEmptyBillableTime" />-->
-                    <!--<include name="randomCsvFileWithInvalidFormat" />-->
-                    <!--<include name="fileThatIsNotACsv" />-->
-                    <!--<include name="validCsvFileFormat" />-->
+					<include name="csvFileWithEmptyBillableRate" />
+					<include name="csvFileWithEmptyEmployeeId" />
+					<include name="csvFileWithSameStartTimeAndEndTime" />
+					<include name="csvFileWithEmptyBillableTime" />
+                    <include name="randomCsvFileWithInvalidFormat" />
+                    <include name="fileThatIsNotACsv" />
+                    <include name="validCsvFileFormat" />
 				</methods>
 			</class>
 
-            <!--<class name="billableHour.SameIdSameCompany">-->
-                <!--<methods>-->
-                    <!--<include name="parseCsvForSameEmployeeIdSameCompany" />-->
-                    <!--<include name="companyInfoSN1" />-->
-                    <!--<include name="companyInfoSN2" />-->
-                <!--</methods>-->
-            <!--</class>-->
-             <!--<class name="billableHour.SameIdDifferentCompany">-->
-                <!--<methods>-->
-                    <!--<include name="parseCsvForSameEmployeeIdDifferentCompany" />-->
-                    <!--<include name="getCompanyInfoForSN1" />-->
-                    <!--<include name="getCompanyInfoForSN2" />-->
-                    <!--<include name="getCompanyInfoForSN3" />-->
-                    <!--<include name="getCompanyInfoForSN4" />-->
-                <!--</methods>-->
-            <!--</class>-->
-            <!--<class name="billableHour.DifferentIdSameCompany">-->
-                <!--<methods>-->
-                    <!--<include name="parseCsvForDifferentEmployeeIdSameCompany" />-->
-                    <!--<include name="companyInfoSN1" />-->
-                <!--</methods>-->
-            <!--</class>-->
-            <!--<class name="billableHour.DifferentIdDifferentCompany">-->
-                <!--<methods>-->
-                    <!--<include name="parseCsvForDifferentEmployeeIdDifferentCompany" />-->
-                    <!--<include name="getCompanyInfoForSN1" />-->
-                    <!--<include name="getCompanyInfoForSN2" />-->
-                <!--</methods>-->
-            <!--</class>-->
+            <class name="billableHour.SameIdSameCompany">
+                <methods>
+                    <include name="parseCsvForSameEmployeeIdSameCompany" />
+                    <include name="companyInfoSN1" />
+                    <include name="companyInfoSN2" />
+                </methods>
+            </class>
+             <class name="billableHour.SameIdDifferentCompany">
+                <methods>
+                    <include name="parseCsvForSameEmployeeIdDifferentCompany" />
+                    <include name="getCompanyInfoForSN1" />
+                    <include name="getCompanyInfoForSN2" />
+                    <include name="getCompanyInfoForSN3" />
+                    <include name="getCompanyInfoForSN4" />
+                </methods>
+            </class>
+            <class name="billableHour.DifferentIdSameCompany">
+                <methods>
+                    <include name="parseCsvForDifferentEmployeeIdSameCompany" />
+                    <include name="companyInfoSN1" />
+                </methods>
+            </class>
+            <class name="billableHour.DifferentIdDifferentCompany">
+                <methods>
+                    <include name="parseCsvForDifferentEmployeeIdDifferentCompany" />
+                    <include name="getCompanyInfoForSN1" />
+                    <include name="getCompanyInfoForSN2" />
+                </methods>
+            </class>
 		</classes>
 	</test>
 </suite>
